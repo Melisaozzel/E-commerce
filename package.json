@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@react-md/icon": "^4.0.1",
+    "express": "^4.17.2"
+  },
+  "name": "PAZAR",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  }
+}
